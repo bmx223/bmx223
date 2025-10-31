@@ -1,0 +1,7 @@
+{
+  "name": "JIGUI CARBURANT",
+  "description": "Accédez en temps réel à la disponibilité et aux informations des stations-service au Mali. Téléchargez l’app Android & iOS.",
+  "requestFramePermissions": [
+    "geolocation"
+  ]
+}

@@ -1,0 +1,77 @@
+
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JIGUI CARBURANT — Disponibilité du carburant au Mali</title>
+    <meta name="description" content="Accédez en temps réel à la disponibilité et aux informations des stations-service au Mali. Téléchargez l’app Android & iOS." />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+      html {
+        scroll-behavior: smooth;
+      }
+    </style>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            fontFamily: {
+              sans: ['Inter', 'sans-serif'],
+              poppins: ['Poppins', 'sans-serif'],
+            },
+            colors: {
+              'brand-blue': {
+                '900': '#0A2E55',
+                '800': '#1A3F6D',
+                '700': '#2A5085',
+                '100': '#E6EEF7',
+              },
+              'brand-green': {
+                '700': '#2E7D32',
+                '100': '#EAF2EA',
+              },
+              'brand-yellow': {
+                '500': '#FFC107',
+                '100': '#FFF9E6',
+              },
+              'brand-red': {
+                '700': '#D32F2F',
+                '100': '#FAEAED',
+              },
+              'gray': {
+                '50': '#F9FAFB',
+                '100': '#F3F4F6',
+                '200': '#E5E7EB',
+                '300': '#D1D5DB',
+                '400': '#9CA3AF',
+                '500': '#6B7280',
+                '600': '#4B5563',
+                '700': '#374151',
+                '800': '#1F2937',
+                '900': '#111827',
+              }
+            }
+          }
+        }
+      }
+    </script>
+  <script type="importmap">
+{
+  "imports": {
+    "react-dom/": "https://aistudiocdn.com/react-dom@^19.2.0/",
+    "react/": "https://aistudiocdn.com/react@^19.2.0/",
+    "react": "https://aistudiocdn.com/react@^19.2.0"
+  }
+}
+</script>
+</head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/index.tsx"></script>
+  </body>
+</html>
